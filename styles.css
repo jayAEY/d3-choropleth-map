@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #004019;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    color: aliceblue;
+}
+
+.chartHolder {
+    background-color: #2b2550;
+    height: 700px;
+    width: 980px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0,0.4);
+    text-align: center;
+}
+
+.chartHolder h1 {
+   margin-top: 4px;  
+   text-align: center;
+   font-weight: 900;
+}
+
+.chart {
+   display: flex;
+   margin: auto;
+   justify-content: center;
+}
+
+#tooltip {
+    height: auto;
+    width: 200px;
+    color: rgb(31, 49, 49);
+    margin: auto;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-small;
+    text-decoration: solid;  
+    font-weight: bolder;
+    border-radius: 6px; 
+}
+
+#legend {
+    font-size: x-small;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+path:hover {
+    fill: white
+}
